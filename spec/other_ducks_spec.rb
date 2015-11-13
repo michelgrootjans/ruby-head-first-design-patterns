@@ -3,7 +3,7 @@ require 'other_ducks'
 describe RubberDuck do
   describe '#display' do
     it 'displays' do
-      expect(subject.display).to eq "Rubber duck"
+      expect(subject.display).to eq 'Rubber duck'
     end
   end
   describe '#quack' do
@@ -21,7 +21,7 @@ end
 describe DecoyDuck do
   describe '#display' do
     it 'displays' do
-      expect(subject.display).to eq "Decoy duck"
+      expect(subject.display).to eq 'Decoy duck'
     end
   end
   describe '#quack' do
